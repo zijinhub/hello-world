@@ -1,0 +1,208 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "data_handle2",
+    "children" : [ {
+      "name" : "testcase_set",
+      "children" : [ {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0000]",
+        "uid" : "69667ac9ac27d44d",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655740210,
+          "stop" : 1590655740245,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0000', 'playEname': 'B001', 'playType': 'danshi', 'code': '0031010305070911~01^', 'money': 62, 'description': '单式-全奇-相同间隔-红球包含蓝球'}" ]
+      }, {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0001]",
+        "uid" : "f20ef4a1b3ea0cd3",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655740739,
+          "stop" : 1590655740740,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0001', 'playEname': 'B001', 'playType': 'danshi', 'code': '0013020406081012~02^', 'money': 26, 'description': '单式-全偶-相同间隔-红球包含蓝球'}" ]
+      }, {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0002]",
+        "uid" : "30e82c9be48825ca",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655740794,
+          "stop" : 1590655740794,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0002', 'playEname': 'B001', 'playType': 'danshi', 'code': '0013071115192327~13^', 'money': 26, 'description': '单式-全奇-相同间隔'}" ]
+      }, {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0003]",
+        "uid" : "41bec7a194fb207b",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655740838,
+          "stop" : 1590655740838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0003', 'playEname': 'B001', 'playType': 'danshi', 'code': '0026101418222630~14^', 'money': 52, 'description': '单式-全偶-相同间隔'}" ]
+      }, {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0004]",
+        "uid" : "2e5e731989669439",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655740879,
+          "stop" : 1590655740879,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0004', 'playEname': 'B001', 'playType': 'danshi', 'code': '0043101112132223~03^', 'money': 86, 'description': '单式-包含三区号码'}" ]
+      }, {
+        "name" : "test_query_api[B001_2020030_14530268942]",
+        "uid" : "f177d4e2d0073a6d",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590655740950,
+          "stop" : 1590655740951,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': '7fa120341176de0cc6a9', 'PlayEname': 'B001', 'Runcode': '14530268942'}" ]
+      }, {
+        "name" : "test_query_api[B001_2020030_162526029226]",
+        "uid" : "af88d59d252d3014",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590655741011,
+          "stop" : 1590655741012,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': 'bba240113680ad58d39d', 'PlayEname': 'B001', 'Runcode': '162526029226'}" ]
+      }, {
+        "name" : "test_query_api[B001_2020030_300275749961]",
+        "uid" : "5b7e7eb941174d42",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590655741075,
+          "stop" : 1590655741075,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': '2c69e00fd9dedea06104', 'PlayEname': 'B001', 'Runcode': '300275749961'}" ]
+      }, {
+        "name" : "test_query_api[B001_2020030_308547693927]",
+        "uid" : "ac8e7773c4451ae7",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590655741141,
+          "stop" : 1590655741141,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': 'b153951fbdd98a3ce005', 'PlayEname': 'B001', 'Runcode': '308547693927'}" ]
+      }, {
+        "name" : "test_query_api[B001_2020030_388849361275]",
+        "uid" : "b9c70d95c35c84f5",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590655741210,
+          "stop" : 1590655741210,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': '36b214210633f92cd299', 'PlayEname': 'B001', 'Runcode': '388849361275'}" ]
+      }, {
+        "name" : "test_encash_api[B001_2020030_14530268942]",
+        "uid" : "e48d4598179fd582",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655741284,
+          "stop" : 1590655741284,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': '7fa120341176de0cc6a9', 'PlayEname': 'B001', 'Runcode': '14530268942'}" ]
+      }, {
+        "name" : "test_encash_api[B001_2020030_162526029226]",
+        "uid" : "6acd0630546d4ec9",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655741368,
+          "stop" : 1590655741368,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': 'bba240113680ad58d39d', 'PlayEname': 'B001', 'Runcode': '162526029226'}" ]
+      }, {
+        "name" : "test_encash_api[B001_2020030_300275749961]",
+        "uid" : "c9de12f9ecfc86c0",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655741447,
+          "stop" : 1590655741447,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': '2c69e00fd9dedea06104', 'PlayEname': 'B001', 'Runcode': '300275749961'}" ]
+      }, {
+        "name" : "test_encash_api[B001_2020030_308547693927]",
+        "uid" : "f57e4b6b811da82c",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655741519,
+          "stop" : 1590655741519,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': 'b153951fbdd98a3ce005', 'PlayEname': 'B001', 'Runcode': '308547693927'}" ]
+      }, {
+        "name" : "test_encash_api[B001_2020030_388849361275]",
+        "uid" : "9fdd1f4c66084bee",
+        "parentUid" : "47f89ae5e22baaab6800cd330042482e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590655741614,
+          "stop" : 1590655741614,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'SellTermCode': '2020030', 'TicketCode': '36b214210633f92cd299', 'PlayEname': 'B001', 'Runcode': '388849361275'}" ]
+      } ],
+      "uid" : "47f89ae5e22baaab6800cd330042482e"
+    } ],
+    "uid" : "87a18508b657f3661c5e45f3cc8c041d"
+  } ]
+}

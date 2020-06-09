@@ -1,0 +1,6 @@
+[35mDEBUG   [0m root:toolkit.py:148 Hash值返回成功，md5_hash: DF6F3BED18D061F2AE32F18DBD52DA78
+[35mDEBUG   [0m root:toolkit.py:149 md5加密后数据返回成功
+[35mDEBUG   [0m root:toolkit.py:152 URL组装成功，test_url: http://10.10.22.236:8941/secret/common/queryLottBet?partnerId=00101&hashType=md5&hash=DF6F3BED18D061F2AE32F18DBD52DA78
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:221 Starting new HTTP connection (1): 10.10.22.236:8941
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:428 http://10.10.22.236:8941 "POST /secret/common/queryLottBet?partnerId=00101&hashType=md5&hash=DF6F3BED18D061F2AE32F18DBD52DA78 HTTP/1.1" 200 320
+[32mINFO    [0m root:toolkit.py:163 接口返回成功，recv_post {'BackCode': '100000', 'BackMsg': '成功', 'RespContent': {'BetCode': '0031010305070911~01^', 'ExtraCode': '92166890', 'PlayEname': 'B001', 'RunCode': '162526029226', 'SellDateTime': '20200621085137', 'SellTermCode': '2020030', 'Status': '2', 'TicketCode': 'bba240113680ad58d39d', 'TicketMoney': '62', 'UserId': '2290110100001'}}

@@ -1,0 +1,107 @@
+{
+  "uid" : "f57e4b6b811da82c",
+  "name" : "test_encash_api[B001_2020030_308547693927]",
+  "fullName" : "data_handle2.testcase_set#test_encash_api",
+  "historyId" : "6960f385532965285ae9839a90bff8e6",
+  "time" : {
+    "start" : 1590655741519,
+    "stop" : 1590655741519,
+    "duration" : 0
+  },
+  "description" : "兑奖用例详情：玩法B001, 期号：2020030, 票号：b153951fbdd98a3ce005 ",
+  "descriptionHtml" : "<p>兑奖用例详情：玩法B001, 期号：2020030, 票号：b153951fbdd98a3ce005</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '100000' == '100301'\n  - 100000\n  + 100301",
+  "statusTrace" : "encash_test_case = ('B001', '2020030', 'b153951fbdd98a3ce005', {'BackCode': '100301', 'BackMsg': '不在销售期内'})\n\n    @pytest.mark.run(order=3)\n    # @pytest.mark.smoke\n    def test_encash_api(encash_test_case):\n        \"\"\"\n        # 下面的函数测试了，可以将数据库的备注动态的输入到allure的报告中，可以使用数据库中的caseid\n        测试了动态添加allure标签，不用再去处理\n        :param query_test_case:\n        :return:\n        \"\"\"\n        playEname, sell_term_code, ticket_code, recv = encash_test_case\n    \n        allure.dynamic.feature(\"兑奖接口_\" + playEname)\n        allure.dynamic.story(playEname + '_' + sell_term_code + '_case')\n        allure.dynamic.severity(allure.severity_level.CRITICAL)\n        allure.dynamic.description(\"兑奖用例详情：玩法{}, 期号：{}, 票号：{} \".format(playEname, sell_term_code, ticket_code))\n>       assert '100000' == recv['BackCode']\nE       AssertionError: assert '100000' == '100301'\nE         - 100000\nE         + 100301\n\ntestcase_set.py:73: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "encash_test_case",
+    "time" : {
+      "start" : 1590655741461,
+      "stop" : 1590655741519,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "兑奖用例详情：玩法B001, 期号：2020030, 票号：b153951fbdd98a3ce005 ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '100000' == '100301'\n  - 100000\n  + 100301",
+    "statusTrace" : "encash_test_case = ('B001', '2020030', 'b153951fbdd98a3ce005', {'BackCode': '100301', 'BackMsg': '不在销售期内'})\n\n    @pytest.mark.run(order=3)\n    # @pytest.mark.smoke\n    def test_encash_api(encash_test_case):\n        \"\"\"\n        # 下面的函数测试了，可以将数据库的备注动态的输入到allure的报告中，可以使用数据库中的caseid\n        测试了动态添加allure标签，不用再去处理\n        :param query_test_case:\n        :return:\n        \"\"\"\n        playEname, sell_term_code, ticket_code, recv = encash_test_case\n    \n        allure.dynamic.feature(\"兑奖接口_\" + playEname)\n        allure.dynamic.story(playEname + '_' + sell_term_code + '_case')\n        allure.dynamic.severity(allure.severity_level.CRITICAL)\n        allure.dynamic.description(\"兑奖用例详情：玩法{}, 期号：{}, 票号：{} \".format(playEname, sell_term_code, ticket_code))\n>       assert '100000' == recv['BackCode']\nE       AssertionError: assert '100000' == '100301'\nE         - 100000\nE         + 100301\n\ntestcase_set.py:73: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b41bf5e2b4f027d",
+      "name" : "log",
+      "source" : "4b41bf5e2b4f027d.txt",
+      "type" : "text/plain",
+      "size" : 798
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "兑奖接口_B001"
+  }, {
+    "name" : "story",
+    "value" : "B001_2020030_case"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle2"
+  }, {
+    "name" : "suite",
+    "value" : "testcase_set"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "4240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle2.testcase_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "encash_test_case",
+    "value" : "{'SellTermCode': '2020030', 'TicketCode': 'b153951fbdd98a3ce005', 'PlayEname': 'B001', 'Runcode': '308547693927'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f57e4b6b811da82c.json",
+  "parameterValues" : [ "{'SellTermCode': '2020030', 'TicketCode': 'b153951fbdd98a3ce005', 'PlayEname': 'B001', 'Runcode': '308547693927'}" ]
+}

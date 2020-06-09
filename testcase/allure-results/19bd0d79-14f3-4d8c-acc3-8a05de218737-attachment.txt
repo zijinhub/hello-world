@@ -1,0 +1,2 @@
+{'PartnerId': '00101', 'SerialNum': '2016040003', 'Version': '1.0.0.0', 'Token': '2016040003', 'ReqContent': {'RunCode': '8623', 'UserId': '2290110100003', 'AccessType': '2', 'PlayEname': 'S3', 'SelltermCode': '2020028', 'ValidtermCode': '2020028', 'LoginSession': 'BBBFC2F7C54249584CEB39DC6F746F56', 'Money': '2', 'Drawway': '1', 'CheckCode': '03636', 'TicketCode': '0001010203^'}, 'TimeStamp': '2020-05-07 16:34:42'}
+D:\python\Python38-32\worksapce\test\pytest.ini

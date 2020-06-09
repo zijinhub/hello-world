@@ -1,0 +1,105 @@
+{
+  "uid" : "5b7e7eb941174d42",
+  "name" : "test_query_api[B001_2020030_300275749961]",
+  "fullName" : "data_handle2.testcase_set#test_query_api",
+  "historyId" : "34db5d1d63dbd729572069098c6a4a50",
+  "time" : {
+    "start" : 1590655741075,
+    "stop" : 1590655741075,
+    "duration" : 0
+  },
+  "description" : "查询用例详情：B001, 期号：2020030, 流水号：300275749961,票号：2c69e00fd9dedea06104",
+  "descriptionHtml" : "<p>查询用例详情：B001, 期号：2020030, 流水号：300275749961,票号：2c69e00fd9dedea06104</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "per_query_test",
+    "time" : {
+      "start" : 1590655741020,
+      "stop" : 1590655741075,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "查询用例详情：B001, 期号：2020030, 流水号：300275749961,票号：2c69e00fd9dedea06104",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35da9f943eb7f267",
+      "name" : "log",
+      "source" : "35da9f943eb7f267.txt",
+      "type" : "text/plain",
+      "size" : 1078
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查询接口_B001"
+  }, {
+    "name" : "story",
+    "value" : "B001_2020030_case"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "查询接口_"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle2"
+  }, {
+    "name" : "suite",
+    "value" : "testcase_set"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "4240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle2.testcase_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "per_query_test",
+    "value" : "{'SellTermCode': '2020030', 'TicketCode': '2c69e00fd9dedea06104', 'PlayEname': 'B001', 'Runcode': '300275749961'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5b7e7eb941174d42.json",
+  "parameterValues" : [ "{'SellTermCode': '2020030', 'TicketCode': '2c69e00fd9dedea06104', 'PlayEname': 'B001', 'Runcode': '300275749961'}" ]
+}

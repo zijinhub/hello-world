@@ -1,0 +1,6 @@
+[35mDEBUG   [0m root:toolkit.py:111 Hash值返回成功，md5_hash: B136D7F92348CB736B207B22DE137059
+[35mDEBUG   [0m root:toolkit.py:112 md5加密后数据返回成功
+[35mDEBUG   [0m root:toolkit.py:114 URL组装成功，test_url: http://10.10.22.236:8941/secret/common/lottEncash?partnerId=00101&hashType=md5&hash=B136D7F92348CB736B207B22DE137059
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:221 Starting new HTTP connection (1): 10.10.22.236:8941
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:428 http://10.10.22.236:8941 "POST /secret/common/lottEncash?partnerId=00101&hashType=md5&hash=B136D7F92348CB736B207B22DE137059 HTTP/1.1" 200 64
+[32mINFO    [0m root:toolkit.py:163 接口返回成功，recv_post {'BackCode': '100301', 'BackMsg': '不在销售期内'}

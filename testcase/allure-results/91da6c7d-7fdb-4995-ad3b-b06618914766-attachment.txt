@@ -1,0 +1,2 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:221 Starting new HTTP connection (1): 10.10.22.237:8941
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:428 http://10.10.22.237:8941 "POST /secret/common/lottBet?partnerId=00101&hashType=md5&hash=D4D94A0A81B895F462934BCE4AD6F8E5 HTTP/1.1" 200 192
