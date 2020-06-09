@@ -1,0 +1,43 @@
+---
+sell_params:
+  checkparam:
+    - [{"RunCode":''},{"expect":"100002"},{"case":"runcode为空"},{"id":"paramcheck"}]
+    - [{"UserId":''},{"expect":"100002"},{"case":"UserId为空"},{"id":"paramcheck"}]
+    - [{"AccessType":''},{"expect":"100002"},{"case":"AccessType为空"},{"id":"paramcheck"}]
+    - [{"PlayEname":''},{"expect":"100002"},{"case":"PlayEnam为空"},{"id":"paramcheck"}]
+    - [{"SellTermCode":''},{"expect":"100002"},{"case":"SellTermCode为空"},{"id":"paramcheck"}]
+    - [{"LoginSession":''},{"expect":"100002"},{"case":"LoginSession为空"},{"id":"paramcheck"}]
+    - [{"Money":''},{"expect":"100002"},{"case":"Money为空"},{"id":"paramcheck"}]
+    - [{"DrawWay":''},{"expect":"100002"},{"case":"DrawWay为空"},{"id":"paramcheck"}]
+    - [{"TicketCode":''},{"expect":"100002"},{"case":"TicketCode为空"},{"id":"paramcheck"}]
+    - [{"CheckCode":''},{"expect":"100002"},{"case":"CheckCode为空"},{"id":"paramcheck"}]
+    - [{"RunCode":'012345678901234567890123456789012345'},{"expect":"100002"},{"case":"runcode参数长度超过最大限制35位"},{"id":"paramcheck"}]
+    - [{"UserId":'2290110100001012345'},{"expect":"100002"},{"case":"UserId参数超过最大长度18位"},{"id":"paramcheck"}]
+    - [{"AccessType":123},{"expect":"100002"},{"case":"AccessType参数超过最大长度2位"},{"id":"paramcheck"}]
+    - [{"PlayEname":'Bs123456789'},{"expect":"100002"},{"case":"PlayEname参数超过最大长度10位"},{"id":"paramcheck"}]
+    - [{"SellTermCode":'202000601'},{"expect":"100002"},{"case":"SellTermCode参数超过最大长度8位"},{"id":"paramcheck"}]
+    - [{"DrawWay":12},{"expect":"100002"},{"case":"DrawWay参数超过最大长度1位"},{"id":"paramcheck"}]
+    - [{"Money":1234567890123},{"expect":"100002"},{"case":"Money参数超过最大长度12位"},{"id":"paramcheck"}]
+    - [{"Money":'2a'},{"expect":"100002"},{"case":"销售金额类型应为整型"},{"id":"paramcheck"}]
+    - [{"AccessType":'3'},{"expect":"100340"},{"case":"接入类型错误，仅支持2"},{"id":"paramcheck"}]
+    - [{"AccessType":'1'},{"expect":"100340"},{"case":"接入类型错误，仅支持2"},{"id":"paramcheck"}]
+    - [{"DrawWay":3},{"expect":"100331"},{"case":"投注方式错误，仅支持1和2"},{"id":"paramcheck"}]
+    - [{"DrawWay":'0'},{"expect":"100331"},{"case":"投注方式错误，"},{"id":"paramcheck"}]
+    - [{"PlayEname":'Bs001'},{"expect":"100326"},{"case":"玩法名不存在"},{"id":"paramcheck"}]
+    - [{"SellTermCode":'20190601'},{"expect":"100328"},{"case":"期号过期或校验失败"},{"id":"paramcheck"}]
+    - [{"TicketCode":'0001010203040506~07'},{"expect":"100311"},{"case":"注码格式校验"},{"id":"paramcheck"}]
+
+
+    - [{"RunCode":'14530268942'},{"expect":"100310"},{"case":"runcode参数重复"},{"id":"exceptiontest"}]
+    - [{"UserId":'2290110100001a'},{"expect":"100332"},{"case":"UserId不存在"},{"id":"exceptiontest"}]
+    - [{"UserId":'2290110200001'},{"expect":"100332"},{"case":"UserId与partnerid不匹配"},{"id":"exceptiontest"}]
+    - [{"UserId":'2290110100003'},{"expect":"100332"},{"case":"UserId与session不匹配"},{"id":"exceptiontest"}]
+    - [{"Money":4},{"expect":"100330"},{"case":"B001销售金额与注码不符"},{"id":"exceptiontest"}]
+    - [{"TicketCode":'0001010203040506~07'},{"expect":"100311"},{"case":"B001注码格式错误"},{"id":"exceptiontest"}]
+
+    - [{"TicketCode":'0001010203040506~07^',"PlayEname":'B001',"Money":2},{"expect":"100000"},{"case":"B001正常投注"},{"id":"normaltest"}]
+    - [{"TicketCode":'0001010203^',"PlayEname":'S3',"Money":2},{"expect":"100000"},{"case":"S3正常投注"},{"id":"normaltest"}]
+    - [{"TicketCode":'000101020304050607^',"PlayEname":'QL730',"Money":2},{"expect":"100000"},{"case":"QL730正常投注"},{"id":"normaltest"}]
+    - [{"TicketCode":'000005010305^',"PlayEname":'K3',"Money":2},{"expect":"100000"},{"case":"K3正常投注"},{"id":"normaltest"}]
+
+#      取字符串还是数值没区别
