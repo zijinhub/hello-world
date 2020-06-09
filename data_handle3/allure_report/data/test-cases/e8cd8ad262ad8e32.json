@@ -1,0 +1,102 @@
+{
+  "uid" : "e8cd8ad262ad8e32",
+  "name" : "LoginSession为空",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "5f178b3b45d18f2f5b1bac2848f16ca6",
+  "time" : {
+    "start" : 1591241354452,
+    "stop" : 1591241354452,
+    "duration" : 0
+  },
+  "description" : "LoginSession为空",
+  "descriptionHtml" : "<p>LoginSession为空</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241354421,
+      "stop" : 1591241354451,
+      "duration" : 30
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "LoginSession为空",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "854a9b374ba2b718",
+      "name" : "log",
+      "source" : "854a9b374ba2b718.txt",
+      "type" : "text/plain",
+      "size" : 1275
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'LoginSession': ''}, {'expect': '100002'}, {'case': 'LoginSession为空'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8cd8ad262ad8e32.json",
+  "parameterValues" : [ "[{'LoginSession': ''}, {'expect': '100002'}, {'case': 'LoginSession为空'}, {'id': 'paramcheck'}]" ]
+}

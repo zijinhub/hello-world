@@ -1,0 +1,102 @@
+{
+  "uid" : "b26c90fc453ae9c4",
+  "name" : "Money为空",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "705c67ad5a65e9b7ab54dc848b13752a",
+  "time" : {
+    "start" : 1591241354489,
+    "stop" : 1591241354489,
+    "duration" : 0
+  },
+  "description" : "Money为空",
+  "descriptionHtml" : "<p>Money为空</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241354459,
+      "stop" : 1591241354488,
+      "duration" : 29
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Money为空",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b18d06f290d91a8",
+      "name" : "log",
+      "source" : "4b18d06f290d91a8.txt",
+      "type" : "text/plain",
+      "size" : 1302
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'Money': ''}, {'expect': '100002'}, {'case': 'Money为空'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b26c90fc453ae9c4.json",
+  "parameterValues" : [ "[{'Money': ''}, {'expect': '100002'}, {'case': 'Money为空'}, {'id': 'paramcheck'}]" ]
+}

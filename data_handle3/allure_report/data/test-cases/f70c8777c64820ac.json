@@ -1,0 +1,102 @@
+{
+  "uid" : "f70c8777c64820ac",
+  "name" : "UserId参数超过最大长度18位",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "cf0a2c7346472dcaf33a2181fd3d69b0",
+  "time" : {
+    "start" : 1591241354654,
+    "stop" : 1591241354654,
+    "duration" : 0
+  },
+  "description" : "UserId参数超过最大长度18位",
+  "descriptionHtml" : "<p>UserId参数超过最大长度18位</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241354632,
+      "stop" : 1591241354653,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "UserId参数超过最大长度18位",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cb7a3b606bfd1476",
+      "name" : "log",
+      "source" : "cb7a3b606bfd1476.txt",
+      "type" : "text/plain",
+      "size" : 1294
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'UserId': '2290110100001012345'}, {'expect': '100002'}, {'case': 'UserId参数超过最大长度18位'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f70c8777c64820ac.json",
+  "parameterValues" : [ "[{'UserId': '2290110100001012345'}, {'expect': '100002'}, {'case': 'UserId参数超过最大长度18位'}, {'id': 'paramcheck'}]" ]
+}

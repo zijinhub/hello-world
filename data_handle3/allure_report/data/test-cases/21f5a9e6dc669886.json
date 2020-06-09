@@ -1,0 +1,110 @@
+{
+  "uid" : "21f5a9e6dc669886",
+  "name" : "注码格式校验",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "56d6f285aa2efa918e36ae29cb3582c8",
+  "time" : {
+    "start" : 1591241355118,
+    "stop" : 1591241355118,
+    "duration" : 0
+  },
+  "description" : "注码格式校验",
+  "descriptionHtml" : "<p>注码格式校验</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '100311' == '100344'\n  - 100311\n  + 100344",
+  "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C6A430>\nsellparams_test_case = ('100311', {'BackCode': '100344', 'BackMsg': '注码校验不通过'}, '注码格式校验', 'paramcheck')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100311' == '100344'\nE         - 100311\nE         + 100344\n\ntest_sell.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241355089,
+      "stop" : 1591241355117,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "注码格式校验",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '100311' == '100344'\n  - 100311\n  + 100344",
+    "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C6A430>\nsellparams_test_case = ('100311', {'BackCode': '100344', 'BackMsg': '注码校验不通过'}, '注码格式校验', 'paramcheck')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100311' == '100344'\nE         - 100311\nE         + 100344\n\ntest_sell.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c0ead8d24b824ab9",
+      "name" : "log",
+      "source" : "c0ead8d24b824ab9.txt",
+      "type" : "text/plain",
+      "size" : 1283
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'TicketCode': '0001010203040506~07'}, {'expect': '100311'}, {'case': '注码格式校验'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21f5a9e6dc669886.json",
+  "parameterValues" : [ "[{'TicketCode': '0001010203040506~07'}, {'expect': '100311'}, {'case': '注码格式校验'}, {'id': 'paramcheck'}]" ]
+}

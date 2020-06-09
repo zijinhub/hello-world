@@ -1,0 +1,481 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "t37-pc2",
+    "children" : [ {
+      "name" : "16420-MainThread",
+      "children" : [ {
+        "name" : "DrawWay参数超过最大长度1位",
+        "uid" : "8c90f7b1796d5250",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354790,
+          "stop" : 1591241354790,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'DrawWay': 12}, {'expect': '100002'}, {'case': 'DrawWay参数超过最大长度1位'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "UserId与partnerid不匹配",
+        "uid" : "6bf6b2b6df6e3c35",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355245,
+          "stop" : 1591241355246,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'UserId': '2290110200001'}, {'expect': '100332'}, {'case': 'UserId与partnerid不匹配'}, {'id': 'exceptiontest'}]" ]
+      }, {
+        "name" : "接入类型错误，仅支持2",
+        "uid" : "c36b8df5fa803323",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354901,
+          "stop" : 1591241354901,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'AccessType': '3'}, {'expect': '100340'}, {'case': '接入类型错误，仅支持2'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "Money为空",
+        "uid" : "b26c90fc453ae9c4",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354489,
+          "stop" : 1591241354489,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'Money': ''}, {'expect': '100002'}, {'case': 'Money为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "B001正常投注",
+        "uid" : "405d0d166b2110ba",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355436,
+          "stop" : 1591241355437,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '0001010203040506~07^', 'PlayEname': 'B001', 'Money': 2}, {'expect': '100000'}, {'case': 'B001正常投注'}, {'id': 'normaltest'}]" ]
+      }, {
+        "name" : "投注方式错误，仅支持1和2",
+        "uid" : "30f4ec7cef824e87",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354970,
+          "stop" : 1591241354970,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'DrawWay': 3}, {'expect': '100331'}, {'case': '投注方式错误，仅支持1和2'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "Money参数超过最大长度12位",
+        "uid" : "2044a8d7ba03bd66",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354819,
+          "stop" : 1591241354819,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'Money': 1234567890123}, {'expect': '100002'}, {'case': 'Money参数超过最大长度12位'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "runcode为空",
+        "uid" : "a6b6a40f6bfed289",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354270,
+          "stop" : 1591241354270,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'RunCode': ''}, {'expect': '100002'}, {'case': 'runcode为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "期号过期或校验失败",
+        "uid" : "1536597457f7b1ed",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355080,
+          "stop" : 1591241355080,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'SellTermCode': '20190601'}, {'expect': '100328'}, {'case': '期号过期或校验失败'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "AccessType参数超过最大长度2位",
+        "uid" : "f4bd42c20bd266f3",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354682,
+          "stop" : 1591241354682,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'AccessType': 123}, {'expect': '100002'}, {'case': 'AccessType参数超过最大长度2位'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "SellTermCode为空",
+        "uid" : "27af93bcf0b38ade",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354411,
+          "stop" : 1591241354412,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'SellTermCode': ''}, {'expect': '100002'}, {'case': 'SellTermCode为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "销售金额类型应为整型",
+        "uid" : "4ddc4af2b18ca0b1",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241354850,
+          "stop" : 1591241354850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'Money': '2a'}, {'expect': '100002'}, {'case': '销售金额类型应为整型'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0000]",
+        "uid" : "137a159891a4d52c",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241353951,
+          "stop" : 1591241353977,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0000', 'playEname': 'B001', 'playType': 'danshi', 'code': '0031010305070911~01^', 'money': 62, 'description': '单式-全奇-相同间隔-红球包含蓝球'}" ]
+      }, {
+        "name" : "CheckCode为空",
+        "uid" : "14ea8b121b83ccf3",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354595,
+          "stop" : 1591241354595,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'CheckCode': ''}, {'expect': '100002'}, {'case': 'CheckCode为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "QL730正常投注",
+        "uid" : "dc84a8b89db6c106",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355535,
+          "stop" : 1591241355535,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '000101020304050607^', 'PlayEname': 'QL730', 'Money': 2}, {'expect': '100000'}, {'case': 'QL730正常投注'}, {'id': 'normaltest'}]" ]
+      }, {
+        "name" : "投注方式错误，",
+        "uid" : "d3f18aaab795444",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355005,
+          "stop" : 1591241355005,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'DrawWay': '0'}, {'expect': '100331'}, {'case': '投注方式错误，'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "runcode参数重复",
+        "uid" : "6dfdb118df6ea621",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355174,
+          "stop" : 1591241355174,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'RunCode': '14530268942'}, {'expect': '100310'}, {'case': 'runcode参数重复'}, {'id': 'exceptiontest'}]" ]
+      }, {
+        "name" : "AccessType为空",
+        "uid" : "c3049cfd8677f869",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354333,
+          "stop" : 1591241354333,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'AccessType': ''}, {'expect': '100002'}, {'case': 'AccessType为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "UserId为空",
+        "uid" : "82d251cce926bd6e",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354302,
+          "stop" : 1591241354302,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'UserId': ''}, {'expect': '100002'}, {'case': 'UserId为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "UserId与session不匹配",
+        "uid" : "6250fd6732e9c6ac",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355275,
+          "stop" : 1591241355275,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'UserId': '2290110100003'}, {'expect': '100332'}, {'case': 'UserId与session不匹配'}, {'id': 'exceptiontest'}]" ]
+      }, {
+        "name" : "注码格式校验",
+        "uid" : "21f5a9e6dc669886",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355118,
+          "stop" : 1591241355118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '0001010203040506~07'}, {'expect': '100311'}, {'case': '注码格式校验'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "B001注码格式错误",
+        "uid" : "2d9997a8c0ee92ba",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355350,
+          "stop" : 1591241355351,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '0001010203040506~07'}, {'expect': '100311'}, {'case': 'B001注码格式错误'}, {'id': 'exceptiontest'}]" ]
+      }, {
+        "name" : "PlayEname参数超过最大长度10位",
+        "uid" : "8900c76204dfb4fa",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354714,
+          "stop" : 1591241354714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'PlayEname': 'Bs123456789'}, {'expect': '100002'}, {'case': 'PlayEname参数超过最大长度10位'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "UserId参数超过最大长度18位",
+        "uid" : "f70c8777c64820ac",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354654,
+          "stop" : 1591241354654,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'UserId': '2290110100001012345'}, {'expect': '100002'}, {'case': 'UserId参数超过最大长度18位'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "LoginSession为空",
+        "uid" : "e8cd8ad262ad8e32",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354452,
+          "stop" : 1591241354452,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'LoginSession': ''}, {'expect': '100002'}, {'case': 'LoginSession为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "玩法名不存在",
+        "uid" : "73db39df26358cd9",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355038,
+          "stop" : 1591241355039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'PlayEname': 'Bs001'}, {'expect': '100326'}, {'case': '玩法名不存在'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "K3正常投注",
+        "uid" : "aa8eef2cd322293c",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355573,
+          "stop" : 1591241355573,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '000005010305^', 'PlayEname': 'K3', 'Money': 2}, {'expect': '100000'}, {'case': 'K3正常投注'}, {'id': 'normaltest'}]" ]
+      }, {
+        "name" : "PlayEnam为空",
+        "uid" : "8922d5e9006f9ff4",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354372,
+          "stop" : 1591241354372,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'PlayEname': ''}, {'expect': '100002'}, {'case': 'PlayEnam为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "S3正常投注",
+        "uid" : "be1e548f2e3a48bd",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355498,
+          "stop" : 1591241355499,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '0001010203^', 'PlayEname': 'S3', 'Money': 2}, {'expect': '100000'}, {'case': 'S3正常投注'}, {'id': 'normaltest'}]" ]
+      }, {
+        "name" : "DrawWay为空",
+        "uid" : "b58222feed198e7f",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354517,
+          "stop" : 1591241354517,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'DrawWay': ''}, {'expect': '100002'}, {'case': 'DrawWay为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "B001销售金额与注码不符",
+        "uid" : "ecaab3bbc9e932cd",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355314,
+          "stop" : 1591241355314,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'Money': 4}, {'expect': '100330'}, {'case': 'B001销售金额与注码不符'}, {'id': 'exceptiontest'}]" ]
+      }, {
+        "name" : "接入类型错误，仅支持2",
+        "uid" : "8d91de1cae998c7d",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354929,
+          "stop" : 1591241354929,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'AccessType': '1'}, {'expect': '100340'}, {'case': '接入类型错误，仅支持2'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "runcode参数长度超过最大限制35位",
+        "uid" : "472c1f883f03a175",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354624,
+          "stop" : 1591241354625,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'RunCode': '012345678901234567890123456789012345'}, {'expect': '100002'}, {'case': 'runcode参数长度超过最大限制35位'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "UserId不存在",
+        "uid" : "35ac004e7809ded2",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241355216,
+          "stop" : 1591241355216,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'UserId': '2290110100001a'}, {'expect': '100332'}, {'case': 'UserId不存在'}, {'id': 'exceptiontest'}]" ]
+      }, {
+        "name" : "TicketCode为空",
+        "uid" : "74e59ca53ab1fa98",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354556,
+          "stop" : 1591241354556,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': ''}, {'expect': '100002'}, {'case': 'TicketCode为空'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "SellTermCode参数超过最大长度8位",
+        "uid" : "86b6c4d14691c79d",
+        "parentUid" : "b6f134281ac3d1c7e539e6ad8828523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591241354753,
+          "stop" : 1591241354753,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'SellTermCode': '202000601'}, {'expect': '100002'}, {'case': 'SellTermCode参数超过最大长度8位'}, {'id': 'paramcheck'}]" ]
+      } ],
+      "uid" : "b6f134281ac3d1c7e539e6ad8828523d"
+    } ],
+    "uid" : "d0f058c6cb0edf2844d439a51c0ca54a"
+  } ]
+}

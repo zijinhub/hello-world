@@ -1,0 +1,7 @@
+[35mDEBUG   [0m root:toolkit.py:111 请求参数,requestcontent {'PartnerId': '00101', 'TimeStamp': '20200706110819', 'SerialNum': '857950011745', 'Version': '1.0.0.0', 'Token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'ReqContent': {'RunCode': '996180541896', 'UserId': '2290110200001', 'AccessType': 2, 'PlayEname': 'B001', 'SellTermCode': '2020033', 'LoginSession': '135BB38859366EC1D48B6561D4B0894C', 'Money': 2, 'DrawWay': 1, 'TicketCode': '0001010203040506~07^', 'CheckCode': '04509'}}
+[35mDEBUG   [0m root:toolkit.py:112 Hash值返回成功，md5_hash: 45F8C6FCD8BE2B25411785756D17898A
+[35mDEBUG   [0m root:toolkit.py:113 md5加密后数据返回成功
+[35mDEBUG   [0m root:toolkit.py:115 URL组装成功，test_url: http://10.10.22.236:8941/secret/common/lottBet?partnerId=00101&hashType=md5&hash=45F8C6FCD8BE2B25411785756D17898A
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:221 Starting new HTTP connection (1): 10.10.22.236:8941
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:428 http://10.10.22.236:8941 "POST /secret/common/lottBet?partnerId=00101&hashType=md5&hash=45F8C6FCD8BE2B25411785756D17898A HTTP/1.1" 200 80
+[32mINFO    [0m root:toolkit.py:164 接口返回成功，recv_post {'BackCode': '100332', 'BackMsg': '动态sessionid校验不通过'}

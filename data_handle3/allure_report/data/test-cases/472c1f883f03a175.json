@@ -1,0 +1,102 @@
+{
+  "uid" : "472c1f883f03a175",
+  "name" : "runcode参数长度超过最大限制35位",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "e1554d256aabffbefe140b02cde97343",
+  "time" : {
+    "start" : 1591241354624,
+    "stop" : 1591241354625,
+    "duration" : 1
+  },
+  "description" : "runcode参数长度超过最大限制35位",
+  "descriptionHtml" : "<p>runcode参数长度超过最大限制35位</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241354604,
+      "stop" : 1591241354624,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "runcode参数长度超过最大限制35位",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3b3f5bce2d3c8da",
+      "name" : "log",
+      "source" : "b3b3f5bce2d3c8da.txt",
+      "type" : "text/plain",
+      "size" : 1314
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'RunCode': '012345678901234567890123456789012345'}, {'expect': '100002'}, {'case': 'runcode参数长度超过最大限制35位'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "472c1f883f03a175.json",
+  "parameterValues" : [ "[{'RunCode': '012345678901234567890123456789012345'}, {'expect': '100002'}, {'case': 'runcode参数长度超过最大限制35位'}, {'id': 'paramcheck'}]" ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "4ddc4af2b18ca0b1",
+  "name" : "销售金额类型应为整型",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "5673e512bc8d2f47db60062743cd5c04",
+  "time" : {
+    "start" : 1591241354850,
+    "stop" : 1591241354850,
+    "duration" : 0
+  },
+  "description" : "销售金额类型应为整型",
+  "descriptionHtml" : "<p>销售金额类型应为整型</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '100002' == '100003'\n  - 100002\n  ?      ^\n  + 100003\n  ?      ^",
+  "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C4C730>\nsellparams_test_case = ('100002', {'BackCode': '100003', 'BackMsg': '系统出错'}, '销售金额类型应为整型', 'paramcheck')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100002' == '100003'\nE         - 100002\nE         ?      ^\nE         + 100003\nE         ?      ^\n\ntest_sell.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241354827,
+      "stop" : 1591241354849,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "销售金额类型应为整型",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '100002' == '100003'\n  - 100002\n  ?      ^\n  + 100003\n  ?      ^",
+    "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C4C730>\nsellparams_test_case = ('100002', {'BackCode': '100003', 'BackMsg': '系统出错'}, '销售金额类型应为整型', 'paramcheck')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100002' == '100003'\nE         - 100002\nE         ?      ^\nE         + 100003\nE         ?      ^\n\ntest_sell.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1f1fd068b4e6d7b",
+      "name" : "log",
+      "source" : "a1f1fd068b4e6d7b.txt",
+      "type" : "text/plain",
+      "size" : 1277
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'Money': '2a'}, {'expect': '100002'}, {'case': '销售金额类型应为整型'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4ddc4af2b18ca0b1.json",
+  "parameterValues" : [ "[{'Money': '2a'}, {'expect': '100002'}, {'case': '销售金额类型应为整型'}, {'id': 'paramcheck'}]" ]
+}

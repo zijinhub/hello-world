@@ -1,0 +1,110 @@
+{
+  "uid" : "73db39df26358cd9",
+  "name" : "玩法名不存在",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "5a4252f6600fbac873cfb57a7e10a91b",
+  "time" : {
+    "start" : 1591241355038,
+    "stop" : 1591241355039,
+    "duration" : 1
+  },
+  "description" : "玩法名不存在",
+  "descriptionHtml" : "<p>玩法名不存在</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '100326' == '100345'\n  - 100326\n  + 100345",
+  "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C6A868>\nsellparams_test_case = ('100326', {'BackCode': '100345', 'BackMsg': '00101渠道无Bs001玩法(00null)投注权限'}, '玩法名不存在', 'paramcheck')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100326' == '100345'\nE         - 100326\nE         + 100345\n\ntest_sell.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241355017,
+      "stop" : 1591241355038,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "玩法名不存在",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '100326' == '100345'\n  - 100326\n  + 100345",
+    "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C6A868>\nsellparams_test_case = ('100326', {'BackCode': '100345', 'BackMsg': '00101渠道无Bs001玩法(00null)投注权限'}, '玩法名不存在', 'paramcheck')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100326' == '100345'\nE         - 100326\nE         + 100345\n\ntest_sell.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3428d5f2e937c532",
+      "name" : "log",
+      "source" : "3428d5f2e937c532.txt",
+      "type" : "text/plain",
+      "size" : 1309
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'PlayEname': 'Bs001'}, {'expect': '100326'}, {'case': '玩法名不存在'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "73db39df26358cd9.json",
+  "parameterValues" : [ "[{'PlayEname': 'Bs001'}, {'expect': '100326'}, {'case': '玩法名不存在'}, {'id': 'paramcheck'}]" ]
+}

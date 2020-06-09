@@ -1,0 +1,110 @@
+{
+  "uid" : "ecaab3bbc9e932cd",
+  "name" : "B001销售金额与注码不符",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "75c1d8d49b51e013c55325600dc47cd5",
+  "time" : {
+    "start" : 1591241355314,
+    "stop" : 1591241355314,
+    "duration" : 0
+  },
+  "description" : "B001销售金额与注码不符",
+  "descriptionHtml" : "<p>B001销售金额与注码不符</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '100330' == '100344'\n  - 100330\n  + 100344",
+  "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x02AF1BF8>\nsellparams_test_case = ('100330', {'BackCode': '100344', 'BackMsg': '注码校验不通过'}, 'B001销售金额与注码不符', 'exceptiontest')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100330' == '100344'\nE         - 100330\nE         + 100344\n\ntest_sell.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241355283,
+      "stop" : 1591241355313,
+      "duration" : 30
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "B001销售金额与注码不符",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '100330' == '100344'\n  - 100330\n  + 100344",
+    "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x02AF1BF8>\nsellparams_test_case = ('100330', {'BackCode': '100344', 'BackMsg': '注码校验不通过'}, 'B001销售金额与注码不符', 'exceptiontest')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100330' == '100344'\nE         - 100330\nE         + 100344\n\ntest_sell.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2a4a7af56d090d23",
+      "name" : "log",
+      "source" : "2a4a7af56d090d23.txt",
+      "type" : "text/plain",
+      "size" : 1283
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "异常投注测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'Money': 4}, {'expect': '100330'}, {'case': 'B001销售金额与注码不符'}, {'id': 'exceptiontest'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ecaab3bbc9e932cd.json",
+  "parameterValues" : [ "[{'Money': 4}, {'expect': '100330'}, {'case': 'B001销售金额与注码不符'}, {'id': 'exceptiontest'}]" ]
+}

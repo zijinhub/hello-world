@@ -1,0 +1,102 @@
+{
+  "uid" : "be1e548f2e3a48bd",
+  "name" : "S3正常投注",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "69844b631b78b668683207f001409836",
+  "time" : {
+    "start" : 1591241355498,
+    "stop" : 1591241355499,
+    "duration" : 1
+  },
+  "description" : "S3正常投注",
+  "descriptionHtml" : "<p>S3正常投注</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241355445,
+      "stop" : 1591241355498,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "S3正常投注",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85f54698b2590ab8",
+      "name" : "log",
+      "source" : "85f54698b2590ab8.txt",
+      "type" : "text/plain",
+      "size" : 1423
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "正常投注测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'TicketCode': '0001010203^', 'PlayEname': 'S3', 'Money': 2}, {'expect': '100000'}, {'case': 'S3正常投注'}, {'id': 'normaltest'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be1e548f2e3a48bd.json",
+  "parameterValues" : [ "[{'TicketCode': '0001010203^', 'PlayEname': 'S3', 'Money': 2}, {'expect': '100000'}, {'case': 'S3正常投注'}, {'id': 'normaltest'}]" ]
+}

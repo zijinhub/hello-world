@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "cb5c92d42c2e2bf591d8238eee081a8e",
+    "name" : "data_handle3",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 28,
+      "unknown" : 0,
+      "total" : 36
+    }
+  } ]
+}

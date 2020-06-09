@@ -1,0 +1,102 @@
+{
+  "uid" : "30f4ec7cef824e87",
+  "name" : "投注方式错误，仅支持1和2",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "9e9a57395ca51d7c71385a97d19fe60e",
+  "time" : {
+    "start" : 1591241354970,
+    "stop" : 1591241354970,
+    "duration" : 0
+  },
+  "description" : "投注方式错误，仅支持1和2",
+  "descriptionHtml" : "<p>投注方式错误，仅支持1和2</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241354936,
+      "stop" : 1591241354969,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "投注方式错误，仅支持1和2",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7e1e3a4f68e111b",
+      "name" : "log",
+      "source" : "a7e1e3a4f68e111b.txt",
+      "type" : "text/plain",
+      "size" : 1281
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'DrawWay': 3}, {'expect': '100331'}, {'case': '投注方式错误，仅支持1和2'}, {'id': 'paramcheck'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30f4ec7cef824e87.json",
+  "parameterValues" : [ "[{'DrawWay': 3}, {'expect': '100331'}, {'case': '投注方式错误，仅支持1和2'}, {'id': 'paramcheck'}]" ]
+}

@@ -1,0 +1,361 @@
+[ {
+  "uid" : "21f5a9e6dc669886",
+  "name" : "注码格式校验",
+  "time" : {
+    "start" : 1591241355118,
+    "stop" : 1591241355118,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e59ca53ab1fa98",
+  "name" : "TicketCode为空",
+  "time" : {
+    "start" : 1591241354556,
+    "stop" : 1591241354556,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecaab3bbc9e932cd",
+  "name" : "B001销售金额与注码不符",
+  "time" : {
+    "start" : 1591241355314,
+    "stop" : 1591241355314,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ddc4af2b18ca0b1",
+  "name" : "销售金额类型应为整型",
+  "time" : {
+    "start" : 1591241354850,
+    "stop" : 1591241354850,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8900c76204dfb4fa",
+  "name" : "PlayEname参数超过最大长度10位",
+  "time" : {
+    "start" : 1591241354714,
+    "stop" : 1591241354714,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa8eef2cd322293c",
+  "name" : "K3正常投注",
+  "time" : {
+    "start" : 1591241355573,
+    "stop" : 1591241355573,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2044a8d7ba03bd66",
+  "name" : "Money参数超过最大长度12位",
+  "time" : {
+    "start" : 1591241354819,
+    "stop" : 1591241354819,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b26c90fc453ae9c4",
+  "name" : "Money为空",
+  "time" : {
+    "start" : 1591241354489,
+    "stop" : 1591241354489,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f70c8777c64820ac",
+  "name" : "UserId参数超过最大长度18位",
+  "time" : {
+    "start" : 1591241354654,
+    "stop" : 1591241354654,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dfdb118df6ea621",
+  "name" : "runcode参数重复",
+  "time" : {
+    "start" : 1591241355174,
+    "stop" : 1591241355174,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d91de1cae998c7d",
+  "name" : "接入类型错误，仅支持2",
+  "time" : {
+    "start" : 1591241354929,
+    "stop" : 1591241354929,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3049cfd8677f869",
+  "name" : "AccessType为空",
+  "time" : {
+    "start" : 1591241354333,
+    "stop" : 1591241354333,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b6c4d14691c79d",
+  "name" : "SellTermCode参数超过最大长度8位",
+  "time" : {
+    "start" : 1591241354753,
+    "stop" : 1591241354753,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73db39df26358cd9",
+  "name" : "玩法名不存在",
+  "time" : {
+    "start" : 1591241355038,
+    "stop" : 1591241355039,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3f18aaab795444",
+  "name" : "投注方式错误，",
+  "time" : {
+    "start" : 1591241355005,
+    "stop" : 1591241355005,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d251cce926bd6e",
+  "name" : "UserId为空",
+  "time" : {
+    "start" : 1591241354302,
+    "stop" : 1591241354302,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9997a8c0ee92ba",
+  "name" : "B001注码格式错误",
+  "time" : {
+    "start" : 1591241355350,
+    "stop" : 1591241355351,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8922d5e9006f9ff4",
+  "name" : "PlayEnam为空",
+  "time" : {
+    "start" : 1591241354372,
+    "stop" : 1591241354372,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "472c1f883f03a175",
+  "name" : "runcode参数长度超过最大限制35位",
+  "time" : {
+    "start" : 1591241354624,
+    "stop" : 1591241354625,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35ac004e7809ded2",
+  "name" : "UserId不存在",
+  "time" : {
+    "start" : 1591241355216,
+    "stop" : 1591241355216,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "405d0d166b2110ba",
+  "name" : "B001正常投注",
+  "time" : {
+    "start" : 1591241355436,
+    "stop" : 1591241355437,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30f4ec7cef824e87",
+  "name" : "投注方式错误，仅支持1和2",
+  "time" : {
+    "start" : 1591241354970,
+    "stop" : 1591241354970,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c36b8df5fa803323",
+  "name" : "接入类型错误，仅支持2",
+  "time" : {
+    "start" : 1591241354901,
+    "stop" : 1591241354901,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8cd8ad262ad8e32",
+  "name" : "LoginSession为空",
+  "time" : {
+    "start" : 1591241354452,
+    "stop" : 1591241354452,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be1e548f2e3a48bd",
+  "name" : "S3正常投注",
+  "time" : {
+    "start" : 1591241355498,
+    "stop" : 1591241355499,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b58222feed198e7f",
+  "name" : "DrawWay为空",
+  "time" : {
+    "start" : 1591241354517,
+    "stop" : 1591241354517,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "137a159891a4d52c",
+  "name" : "test_sell_api[test_B001_danshi_basic_00_0000]",
+  "time" : {
+    "start" : 1591241353951,
+    "stop" : 1591241353977,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a6b6a40f6bfed289",
+  "name" : "runcode为空",
+  "time" : {
+    "start" : 1591241354270,
+    "stop" : 1591241354270,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bf6b2b6df6e3c35",
+  "name" : "UserId与partnerid不匹配",
+  "time" : {
+    "start" : 1591241355245,
+    "stop" : 1591241355246,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6250fd6732e9c6ac",
+  "name" : "UserId与session不匹配",
+  "time" : {
+    "start" : 1591241355275,
+    "stop" : 1591241355275,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc84a8b89db6c106",
+  "name" : "QL730正常投注",
+  "time" : {
+    "start" : 1591241355535,
+    "stop" : 1591241355535,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27af93bcf0b38ade",
+  "name" : "SellTermCode为空",
+  "time" : {
+    "start" : 1591241354411,
+    "stop" : 1591241354412,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c90f7b1796d5250",
+  "name" : "DrawWay参数超过最大长度1位",
+  "time" : {
+    "start" : 1591241354790,
+    "stop" : 1591241354790,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1536597457f7b1ed",
+  "name" : "期号过期或校验失败",
+  "time" : {
+    "start" : 1591241355080,
+    "stop" : 1591241355080,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4bd42c20bd266f3",
+  "name" : "AccessType参数超过最大长度2位",
+  "time" : {
+    "start" : 1591241354682,
+    "stop" : 1591241354682,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14ea8b121b83ccf3",
+  "name" : "CheckCode为空",
+  "time" : {
+    "start" : 1591241354595,
+    "stop" : 1591241354595,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

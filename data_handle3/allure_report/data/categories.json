@@ -1,0 +1,141 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '100000' == '100302'\n  - 100000\n  + 100302",
+      "children" : [ {
+        "name" : "test_sell_api[test_B001_danshi_basic_00_0000]",
+        "uid" : "137a159891a4d52c",
+        "parentUid" : "d9c69d48250a3ad2272d34d0b2482542",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241353951,
+          "stop" : 1591241353977,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_B001_danshi_basic_00_0000', 'playEname': 'B001', 'playType': 'danshi', 'code': '0031010305070911~01^', 'money': 62, 'description': '单式-全奇-相同间隔-红球包含蓝球'}" ]
+      } ],
+      "uid" : "d9c69d48250a3ad2272d34d0b2482542"
+    }, {
+      "name" : "AssertionError: assert '100002' == '100003'\n  - 100002\n  ?      ^\n  + 100003\n  ?      ^",
+      "children" : [ {
+        "name" : "销售金额类型应为整型",
+        "uid" : "4ddc4af2b18ca0b1",
+        "parentUid" : "3dc705d1eadbfdf00d504dde0c527b8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241354850,
+          "stop" : 1591241354850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'Money': '2a'}, {'expect': '100002'}, {'case': '销售金额类型应为整型'}, {'id': 'paramcheck'}]" ]
+      } ],
+      "uid" : "3dc705d1eadbfdf00d504dde0c527b8b"
+    }, {
+      "name" : "AssertionError: assert '100326' == '100345'\n  - 100326\n  + 100345",
+      "children" : [ {
+        "name" : "玩法名不存在",
+        "uid" : "73db39df26358cd9",
+        "parentUid" : "b2f210372aec63699cde6c4311a26f31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355038,
+          "stop" : 1591241355039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'PlayEname': 'Bs001'}, {'expect': '100326'}, {'case': '玩法名不存在'}, {'id': 'paramcheck'}]" ]
+      } ],
+      "uid" : "b2f210372aec63699cde6c4311a26f31"
+    }, {
+      "name" : "AssertionError: assert '100311' == '100344'\n  - 100311\n  + 100344",
+      "children" : [ {
+        "name" : "注码格式校验",
+        "uid" : "21f5a9e6dc669886",
+        "parentUid" : "31a0a18762bc68be912781c042550bef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355118,
+          "stop" : 1591241355118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '0001010203040506~07'}, {'expect': '100311'}, {'case': '注码格式校验'}, {'id': 'paramcheck'}]" ]
+      }, {
+        "name" : "B001注码格式错误",
+        "uid" : "2d9997a8c0ee92ba",
+        "parentUid" : "31a0a18762bc68be912781c042550bef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355350,
+          "stop" : 1591241355351,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '0001010203040506~07'}, {'expect': '100311'}, {'case': 'B001注码格式错误'}, {'id': 'exceptiontest'}]" ]
+      } ],
+      "uid" : "31a0a18762bc68be912781c042550bef"
+    }, {
+      "name" : "AssertionError: assert '100330' == '100344'\n  - 100330\n  + 100344",
+      "children" : [ {
+        "name" : "B001销售金额与注码不符",
+        "uid" : "ecaab3bbc9e932cd",
+        "parentUid" : "4c62ad22704a77a81d102d4c09920209",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355314,
+          "stop" : 1591241355314,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'Money': 4}, {'expect': '100330'}, {'case': 'B001销售金额与注码不符'}, {'id': 'exceptiontest'}]" ]
+      } ],
+      "uid" : "4c62ad22704a77a81d102d4c09920209"
+    }, {
+      "name" : "AssertionError: assert '100000' == '100327'\n  - 100000\n  + 100327",
+      "children" : [ {
+        "name" : "QL730正常投注",
+        "uid" : "dc84a8b89db6c106",
+        "parentUid" : "00788bfdb42927de649c93b3e2a82826",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355535,
+          "stop" : 1591241355535,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '000101020304050607^', 'PlayEname': 'QL730', 'Money': 2}, {'expect': '100000'}, {'case': 'QL730正常投注'}, {'id': 'normaltest'}]" ]
+      } ],
+      "uid" : "00788bfdb42927de649c93b3e2a82826"
+    }, {
+      "name" : "AssertionError: assert '100000' == '100329'\n  - 100000\n  + 100329",
+      "children" : [ {
+        "name" : "K3正常投注",
+        "uid" : "aa8eef2cd322293c",
+        "parentUid" : "748092ca3e58014df0299f1c71b9c62d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591241355573,
+          "stop" : 1591241355573,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'TicketCode': '000005010305^', 'PlayEname': 'K3', 'Money': 2}, {'expect': '100000'}, {'case': 'K3正常投注'}, {'id': 'normaltest'}]" ]
+      } ],
+      "uid" : "748092ca3e58014df0299f1c71b9c62d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "405d0d166b2110ba",
+  "name" : "B001正常投注",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "e14ee2207c8548325d36e30343b220e4",
+  "time" : {
+    "start" : 1591241355436,
+    "stop" : 1591241355437,
+    "duration" : 1
+  },
+  "description" : "B001正常投注",
+  "descriptionHtml" : "<p>B001正常投注</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241355363,
+      "stop" : 1591241355436,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "B001正常投注",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d18e4e815774515",
+      "name" : "log",
+      "source" : "6d18e4e815774515.txt",
+      "type" : "text/plain",
+      "size" : 1430
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "正常投注测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'TicketCode': '0001010203040506~07^', 'PlayEname': 'B001', 'Money': 2}, {'expect': '100000'}, {'case': 'B001正常投注'}, {'id': 'normaltest'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "405d0d166b2110ba.json",
+  "parameterValues" : [ "[{'TicketCode': '0001010203040506~07^', 'PlayEname': 'B001', 'Money': 2}, {'expect': '100000'}, {'case': 'B001正常投注'}, {'id': 'normaltest'}]" ]
+}

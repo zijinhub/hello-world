@@ -1,0 +1,110 @@
+{
+  "uid" : "aa8eef2cd322293c",
+  "name" : "K3正常投注",
+  "fullName" : "data_handle3.test_sell.Test_sell#test_sell_param",
+  "historyId" : "fc41b00bd8fe07ad69440b70f6871e1d",
+  "time" : {
+    "start" : 1591241355573,
+    "stop" : 1591241355573,
+    "duration" : 0
+  },
+  "description" : "K3正常投注",
+  "descriptionHtml" : "<p>K3正常投注</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '100000' == '100329'\n  - 100000\n  + 100329",
+  "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C4C430>\nsellparams_test_case = ('100000', {'BackCode': '100329', 'BackMsg': '销售时间校验不通过'}, 'K3正常投注', 'normaltest')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100000' == '100329'\nE         - 100000\nE         + 100329\n\ntest_sell.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sellparams_test_case",
+    "time" : {
+      "start" : 1591241355548,
+      "stop" : 1591241355573,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "K3正常投注",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '100000' == '100329'\n  - 100000\n  + 100329",
+    "statusTrace" : "self = <test.data_handle3.test_sell.Test_sell object at 0x03C4C430>\nsellparams_test_case = ('100000', {'BackCode': '100329', 'BackMsg': '销售时间校验不通过'}, 'K3正常投注', 'normaltest')\n\n    @allure.feature(\"销售模块\")\n    def test_sell_param(self,sellparams_test_case):\n        expect, recv ,case,test_id= sellparams_test_case\n        if test_id == \"paramcheck\":\n            allure.dynamic.story('参数测试' )\n        elif test_id==\"normaltest\":\n            allure.dynamic.story('正常投注测试')\n        else:\n            allure.dynamic.story('异常投注测试')\n    \n        allure.dynamic.title(case)\n        allure.dynamic.severity(allure.severity_level.NORMAL)\n        allure.dynamic.description(case)\n>       assert expect == recv['BackCode']\nE       AssertionError: assert '100000' == '100329'\nE         - 100000\nE         + 100329\n\ntest_sell.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76fb59d5f1cdcb9a",
+      "name" : "log",
+      "source" : "76fb59d5f1cdcb9a.txt",
+      "type" : "text/plain",
+      "size" : 1281
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "正常投注测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "销售模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "data_handle3"
+  }, {
+    "name" : "suite",
+    "value" : "test_sell"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sell"
+  }, {
+    "name" : "host",
+    "value" : "t37-pc2"
+  }, {
+    "name" : "thread",
+    "value" : "16420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "data_handle3.test_sell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sellparams_test_case",
+    "value" : "[{'TicketCode': '000005010305^', 'PlayEname': 'K3', 'Money': 2}, {'expect': '100000'}, {'case': 'K3正常投注'}, {'id': 'normaltest'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aa8eef2cd322293c.json",
+  "parameterValues" : [ "[{'TicketCode': '000005010305^', 'PlayEname': 'K3', 'Money': 2}, {'expect': '100000'}, {'case': 'K3正常投注'}, {'id': 'normaltest'}]" ]
+}
